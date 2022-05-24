@@ -4,3 +4,5 @@ Built a smart lamp that is integrated with a website hosted on a Cloud AWS EC2 i
 Everything is connected to Rasyberry Pi 4 that controls the LED driver that powers the lamp
 
 Webserver is interconnected with touch screen. If user changes brightness on Web ui, the touch screen display will simultaneously change. Messages are sent over MQTT. 
+
+Worked with another partner for this project.
