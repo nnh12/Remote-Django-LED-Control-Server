@@ -1,4 +1,6 @@
 # Smart_Lamp
-Created a smart lamp that is powered by a LED driver to display a desired color.. Programmed a Rasyberry Pi Micocontroller connected to a Touch Displayer. Programmed the touch display UI to control the LED drivers. Touch display UI is also connected to a Web UI hosted on a AWS EC2 Cloud Web Server. Web UI can control the LED. 
+Built a smart lamp that is integrated with a website hosted on a Cloud AWS EC2 instance server and a touch screen display. Has function to adjust brightness, saturation, and on/off. 
 
-Web UI and Touch Display UI asynchronously publish/subscribe messages over MQTT. 
+Everything is connected to Rasybeery Pi 4 that controls the LED driver that powers the lamp
+
+Webserver is interconnected with touch screen. If user changes brightness on Web ui, the touch screen display will simultaneously change. Messages are sent over MQTT. 
